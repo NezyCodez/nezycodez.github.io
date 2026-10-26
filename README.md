@@ -1,2 +1,2 @@
 # nezycodez.github.io
-i upload projects :)
+i love eating pickles because pickles are cool 
