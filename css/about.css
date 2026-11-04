@@ -1,0 +1,30 @@
+.image {
+            width: 30vw;
+            height: 80vh;
+            background-color: white;
+            margin: 50px;
+            border-radius: 3rem;
+            box-shadow: 20px 20px green;
+        }
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3rem;
+        }
+        .pgraph {
+            width: 70vw;
+            height: auto;
+            margin: 75px;
+            border-radius: 2rem;
+            padding: 25px;
+            font-size: 1.5rem;
+            font-family: 'Average Sans', sans-serif;
+            background-color: #c3ff6a;
+            box-shadow: 20px 20px green;
+        }
+        .content-container {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 50px;
+        }
