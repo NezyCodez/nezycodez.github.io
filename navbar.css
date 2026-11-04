@@ -1,0 +1,37 @@
+@keyframes enlarge {
+            100% {
+                font-size: 2.3rem;
+            }
+        }
+        .menu:hover, .end:hover {
+            animation-name: enlarge;
+            animation-duration: 0.5s;
+            animation-fill-mode: forwards;
+        }
+        .nav_offset {
+            background-color: #91CB3E;
+            font-family: 'Jolly Lodger', sans-serif;
+            font-size: 2rem;
+            display: flex;
+            min-height: 5rem;
+            flex-direction: row-reverse;
+            align-items: center;
+            padding: 0 1rem;
+        
+        }
+        .menu, .end {
+            color: #ebebeb;
+            text-decoration: none;
+        }
+        .menu {
+            margin-right: 3rem;
+        }
+        .end {
+            margin-right: auto;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #edffd3;
+            min-height: 200vh;
+        }
