@@ -27,3 +27,6 @@
         .infobar p {
             font-size: 1.3rem;
         }
+        body {
+            overflow-x: hidden;
+        }
