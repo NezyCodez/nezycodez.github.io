@@ -17,6 +17,9 @@
             flex-direction: row-reverse;
             align-items: center;
             padding: 0 1rem;
+            top: 0;
+            width: 100vw;
+            height: 10vh;
             position: fixed;
         
         }
