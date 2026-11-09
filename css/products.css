@@ -1,0 +1,22 @@
+body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        #parent {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100vw;
+            height: 100vh;
+            margin-top: 200px;
+            margin-left: 250px;
+            gap: 10px;
+        }
+        .child {
+            width: 25%;
+            height: 75%;
+            font-size: 4rem;
+            background-color: white;
+            border-radius: 2rem;
+        }
