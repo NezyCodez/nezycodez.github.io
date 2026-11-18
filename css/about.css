@@ -1,8 +1,8 @@
 .image {
             width: 30vw;
-            height: 80vh;
+            height: 75vh;
             background-color: white;
-            margin: 50px;
+            margin: 25px;
             border-radius: 3rem;
             box-shadow: 20px 20px green;
         }
@@ -15,16 +15,40 @@
         .pgraph {
             width: 70vw;
             height: auto;
-            margin: 75px;
+            margin: 70px;
             border-radius: 2rem;
             padding: 25px;
-            font-size: 1.5rem;
+            font-size: 2vw;
             font-family: 'Average Sans', sans-serif;
             background-color: #c3ff6a;
             box-shadow: 20px 20px green;
         }
-        .content-container {
+        .pgraph2 {
+            margin: 70px;
+            border-radius: 2rem;
+            padding: 25px;
+            font-size: 2vw;
+            font-family: 'Average Sans', sans-serif;
+            background-color: #c3ff6a;
+            box-shadow: 20px 20px green;
+        }
+        .content-container, .content-container2 {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
+        }
+        .content-container {
+            margin-left: 35px;
             margin-top: 50px;
+        }
+        .content-container2 {
+            margin-right: 35px;
+            margin-bottom: 50px
+        }
+        .content-container3 {
+            text-align: center;
+            
+        }
+        body {
+            overflow-x: hidden;
         }
