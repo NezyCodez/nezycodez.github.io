@@ -14,7 +14,7 @@
             width: 100vw;
             height: 30vh;
             position: absolute;
-            top: 65%;
+            top: 95%;
             z-index: 2;
 
         }
@@ -29,4 +29,16 @@
         }
         body {
             overflow-x: hidden;
+        }
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 7rem;
+            opacity: 80%;
+            font-weight: bold;
+            font-family: 'Average Sans', sans-serif;
+            width: 100vw;
         }
