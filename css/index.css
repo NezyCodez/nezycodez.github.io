@@ -39,7 +39,7 @@
             font-size: 1.3rem;
         }
         body {
-            overflow: hidden;
+            overflow-x: hidden;
         }
         .overlay-text {
             position: absolute;
