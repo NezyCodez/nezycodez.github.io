@@ -63,57 +63,6 @@
         body {
             overflow-x: hidden;
         }
-        .logoinf {
-            width: 230px;
-            height: 230px;
-            background-color: rgb(234, 255, 187);
-            box-shadow: 10px 10px 50px gray;
-            border-radius: 3rem;
-            flex: 0 0 auto;
-        }
-        .logoinf img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 3rem;
-        }
-        .inf-scr-container {
-            width: 100vw;
-            display: flex;
-            flex-direction: row;
-            padding: 40px 0;
-        }
-        .infscrtrk {
-            display: flex;
-            width: max-content;
-            animation: infscr 15s linear infinite;
-        }
-        .inf-group {
-            display: flex;
-            gap: 20px;
-            padding-right: 20px;
-        }
-        @keyframes infscr {
-            0% {
-                transform: translateX(0);
-            }
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-        @keyframes big {
-            100% {
-                scale: 1.2
-            }
-        }
-        .inf-scr-container:hover .infscrtrk{
-            animation-play-state: paused;
-        }
-        .logoinf:hover {
-            animation-name: big;
-            animation-duration: 1s;
-            animation-direction: forwards;
-        }
         .overlay-text {
             position: absolute;
             top: 60%;
